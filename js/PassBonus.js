@@ -30,7 +30,7 @@ function shuffeledWord(word) {
     return shuffledWord;
 }
 let security = 8
-if (security>=8){
+if (security === 8){
     password(security)                          //J'appel ma fonction pour obtenir une suite de caractère
     console.log(shuffeledWord(result))          //J'affiche mon mdp qui s'est fait shuffle pour ne pas avoir la même chose
 }else{
