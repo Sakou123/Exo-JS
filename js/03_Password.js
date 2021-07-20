@@ -21,4 +21,4 @@ function password(request){
     }
     return result
 }
-console.log(password(10))
+console.log(password(8))
